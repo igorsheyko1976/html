@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рейтинг любимых блюд кубанской кухни</title>
+    <style>
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1>Рейтинг любимых блюд кубанской кухни</h1>
+    </div>
+
+    <table style="background-color: pink;" align="center" border="2" height="200" width="800">
+        <tr>
+            <th>Название блюда</th>
+            <th>Оценка блюда</th>
+            <th>Ссылка на рецепт блюда</th>
+            <th>Фото блюда</th>
+        </tr>
+        <tr>
+            <td>Борщ</td>
+            <td>10</td>
+            <td><a href="https://povar.ru/recipes/samyi_vkusnyi_borsh-57233.html" target="_blank">Рецепт борща</a></td>
+            <td><img src="borsh.jpg" width="200" alt="Борщ"></td>
+        </tr>
+        <tr>
+            <td>Вареники с вишней</td>
+            <td>9</td>
+            <td><a href="https://povar.ru/recipes/postnye_vareniki_s_vishnei-38937.html" target="_blank">Рецепт вареников с вишней</a></td>
+            <td><img src="postnie_vareniki_s_vishnei.jpg" width="200" alt="Вареники с вишней"></td>
+        </tr>
+        <tr>
+            <td>Голубцы</td>
+            <td>8</td>
+            <td><a href="https://povar.ru/recipes/golubcy_v_duhovke_so_smetanoi-50961.html" target="_blank">Рецепт голубцов</a></td>
+            <td><img src="golubci.jpg" width="200" alt="Голубцы"></td>
+        </tr>
+        <tr>
+            <td>Пельмени</td>
+            <td>9</td>
+            <td><a href="https://povar.ru/recipes/pelmeni_russkie-18924.html" target="_blank">Рецепт пельменей</a></td>
+            <td><img src="pelmeni.jpg" width="200" alt="Пельмени"></td>
+        </tr>
+        <tr>
+            <td>Окрошка</td>
+            <td>7</td>
+            <td><a href="https://povar.ru/recipes/okroshka_s_vetchinoi-23208.html" target="_blank">Рецепт окрошки</a></td>
+            <td><img src="okroshka.jpg" width="200" alt="Окрошка"></td>
+        </tr>
+    </table>
+</body>
+</html>
