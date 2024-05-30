@@ -1,16 +1,16 @@
  body {
-    background-color: #FFFFFF
+    background-color: #FFC0CB
 }
 
  .user-card {
             width: 300px;
-            background-color: #8FBC8F;
-            border: 1px solid #ccc;
-            border-radius: 20px;
-            padding: 20px;
-            margin: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
+            background-color: #E9967A;
+            border: 2px solid #ccc;
+            border-radius: 30px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.8s;
         }
 
         .user-card:hover {
@@ -19,22 +19,22 @@
 
         .user-card img {
             width: 100%;
-            border-radius: 10px;
-            margin-bottom: 10px;
+            border-radius: 20px;
+            margin-bottom: 20px;
         }
 
         .user-card h2 {
             margin: 0;
-            font-size: 24px;
-            color: #000000;
-            font-weight: [900];
+            font-size: 20px;
+            color: #556B2F;
+            font-weight: [200];
             font-family: [cursive];
         }
 
         .user-card p {
-            margin: 5px 0;
-            font-size: 18px;
-            color: #2F4F4F;
-            font-weight: [500];
+            margin: 10px 0;
+            font-size: 15px;
+            color: #556B2F;
+            font-weight: [100];
             font-family: [cursive];
         }
